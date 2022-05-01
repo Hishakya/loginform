@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+//import "./login.css"
+//if u use login css u cant see logout items for now
 const Login = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -18,7 +19,7 @@ const Login = () => {
                 <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
 
                 <button type="Submit" className="submit_btn">
-                suubmit
+                submit buddy
                 </button>
             </form>
 
